@@ -1,0 +1,357 @@
+@media (max-width: 1400px) {
+    .wrapper {
+        width: 1100px;
+        margin: 0 auto;
+    }
+
+    .content{
+        background-size: 250px;
+    }
+
+    .slider-year-item{
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .btn-year{
+        margin: 0;
+    }
+}
+
+@media (max-width: 1200px) {
+    .wrapper {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .content{
+        background-size: 200px;
+    }
+
+    .slider-year-container{
+        margin-top: 30px;
+    }
+
+    .slider-year-item{
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .btn-year{
+        margin: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .wrapper {
+        width: 800px;
+        margin: 0 auto;
+    }
+
+    .content{
+        background-size: 200px;
+    }
+
+    .slider-year-container{
+        margin-top: 30px;
+    }
+
+    .slider-year-item{
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .btn-year{
+        margin: 0;
+    }
+    .header-logo{
+        flex: 0.6;
+    }
+}
+
+@media (max-width: 820px) {
+    .wrapper {
+        width: 700px;
+        margin: 0 auto;
+    }
+
+    .content{
+        background-size: 200px;
+    }
+
+    .slider-year-container{
+        margin-top: 30px;
+    }
+
+    .slider-year-item{
+        width: 100%;
+        margin-right: 10px;
+    }
+
+    .btn-year{
+        margin: 0;
+    }
+    .header-logo{
+        flex: 0.6;
+    }
+
+    .nav-link{
+        font-size: 11px;
+    }
+
+    .content--description {
+        margin-top: 100px;
+    }
+
+    .prev {
+        left: -48px;
+    }
+
+    .next{
+        right: -48px;
+    }
+}
+
+@media (max-width: 414px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content{
+        background-size: 100px;
+    }
+
+    .slider-info-item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-year-container{
+        margin-top: 30px;
+    }
+
+    .slider-year-item{
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .info-item-img{
+       
+        text-align: center;
+    }
+
+    .info-item-img img{
+        width: 80%;
+    }
+
+    .slider-year-track {
+        overflow: scroll;
+    }
+
+    .btn-year{
+        margin: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn-prev{
+        margin-right: 5px;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+    .header-logo{
+        flex: 0.6;
+        margin-bottom: 10px;
+    }
+
+    .header-logo img {
+        width: 150px;
+    }
+
+    .header-content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header-content-info{
+        margin-bottom: 15px;
+    }
+
+    .nav{
+        padding: 5px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-link{
+        margin-bottom: 10px;
+        font-size: 11px;
+        margin-right: 20px;
+    }
+
+
+    .content--description {
+        margin-top: 100px;
+    }
+
+    .prev {
+        left: -19px;
+    }
+
+    .next{
+        right: -19px;
+    }
+
+    .year-active {
+       flex: 0 0 15%;
+       min-width: 15%;
+       height: 30px; 
+    }
+
+    .slider-year-item{
+        flex: 0 0 10%;
+        min-width: 10%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .content--description{
+        margin-top: 30px;
+    }
+
+    .footer{
+        margin-top: 250px;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 390px) {
+    .wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .content{
+        background-size: 100px;
+    }
+
+    .slider-info-item{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .slider-year-container{
+        margin-top: 30px;
+    }
+
+    .slider-year-item{
+        width: 100%;
+        margin-right: 5px;
+    }
+
+    .info-item-img{
+       
+        text-align: center;
+    }
+
+    .info-item-img img{
+        width: 80%;
+    }
+
+    .slider-year-track {
+        overflow: scroll;
+    }
+
+    .btn-year{
+        margin: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    .btn-prev{
+        margin-right: 5px;
+    }
+
+    .header{
+        flex-direction: column;
+    }
+    .header-logo{
+        flex: 0.6;
+        margin-bottom: 10px;
+    }
+
+    .header-logo img {
+        width: 150px;
+    }
+
+    .header-content{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .header-content-info{
+        margin-bottom: 15px;
+    }
+
+    .nav{
+        padding: 5px;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .nav-link{
+        margin-bottom: 10px;
+        font-size: 11px;
+        margin-right: 20px;
+    }
+
+
+    .content--description {
+        margin-top: 100px;
+    }
+
+    .prev {
+        left: -19px;
+    }
+
+    .next{
+        right: -19px;
+    }
+
+    .year-active {
+       flex: 0 0 15%;
+       min-width: 15%;
+       height: 30px; 
+    }
+
+    .slider-year-item{
+        flex: 0 0 10%;
+        min-width: 10%;
+        height: 30px;
+        font-size: 10px;
+    }
+
+    .content--description{
+        margin-top: 30px;
+    }
+
+    .footer{
+        margin-top: 250px;
+        padding: 30px;
+        text-align: center;
+    }
+}
+
+
+
+

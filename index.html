@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./media.css" />
+    <title>Гомель обои</title>
+  </head>
+  <body>
+    <div class="content">
+      <div class="wrapper">
+        <div class="header">
+          <div class="header-logo">
+            <img src="./img/logo.png" alt="logo" />
+          </div>
+          <div class="header-content">
+            <div class="header-content-language">RU/EN</div>
+            <div class="header-content-info">
+              <a class="header-info-tel" href="tel">+375 (23) 253-93-66</a>
+              <span class="header-info-time">Пн-Пт с 8:00-17:00</span>
+            </div>
+            <div class="header-content-search">
+              <img src="./img/search.svg" alt="" />
+            </div>
+            <div class="header-content_favourites">
+              <img src="./img/heart.svg" alt="" />
+            </div>
+            <div class="header-content-btn">
+              <button class="header-btn border-gradient border-gradient-pink">
+                Заказать звонок
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="nav border-gradient border-gradient-pink">
+          <a href="" class="nav-link">Каталог обоев</a>
+          <a href="" class="nav-link">Коллекции</a>
+          <a href="" class="nav-link">Эксклюзивные обои</a>
+          <a href="" class="nav-link">Акции</a>
+          <a href="" class="nav-link">Продажи</a>
+          <a href="" class="nav-link">О компании</a>
+          <a href="" class="nav-link">Статьи</a>
+          <a href="" class="nav-link">Контакты</a>
+        </div>
+        <div class="slider-year-container">
+          <button class="btn-prev btn-year" onclick="minusYear()">
+            <img src="./img/arrow-left.svg" alt="" />
+          </button>
+          <div class="slider-year-track">
+            <div
+              class="slider-year-item border-gradient border-gradient-pink year-active"
+            >
+              1927
+            </div>
+            <div class="slider-year-item border-gradient border-gradient-pink">
+              1928
+            </div>
+            <div class="slider-year-item border-gradient border-gradient-pink">
+              1929
+            </div>
+            <div class="slider-year-item border-gradient border-gradient-pink">
+              1930
+            </div>
+            <div class="slider-year-item border-gradient border-gradient-pink">
+              1931
+            </div>
+            <div class="slider-year-item border-gradient border-gradient-pink">
+              1932
+            </div>
+            <div class="slider-year-item border-gradient border-gradient-pink">
+              1933
+            </div>
+            <div class="slider-year-item border-gradient border-gradient-pink">
+              1934
+            </div>
+          </div>
+          <button class="btn-next btn-year" onclick="plusYear()">
+            <img src="./img/arrow-right.svg" alt="" />
+          </button>
+        </div>
+        <div class="slider-info-container">
+          <div class="slider-info-track">
+            <div class="slider-info-item">
+              <div class="info-item-img">
+                <img src="./img/avatar.png" alt="avatar" />
+              </div>
+              <div class="info-item-content">
+                <span class="item-content-title">1928 - первое упоминание</span>
+                <div class="content--description">
+                  <p class="item-content-description">
+                    Первое упоминание в архивных данных о предприятии было в
+                    1927 году.
+                  </p>
+                  <p class="item-content-description">
+                    Этот завод в 1937 году решением Управления Химпрома
+                    Наркомлеспрома СССР передан в состав вновь построенного
+                    здесь в 1934 – 1936гг. завода «Изоплит».
+                  </p>
+                  <p class="item-content-description">
+                    Первым директором и начальником строительства предприятия
+                    был Корсаков Василий Тихонович.
+                  </p>
+                  <p class="item-content-description">
+                    Согласно дополнительных архивных данных на территории
+                    мыльной артели, принадлежащей частному предпринимателю,
+                    входящей в состав «Сампромсоюза», начинается строительство
+                    канифольного завода по проекту известного инженера,
+                    специалиста канифольного дела, частного собственника
+                    Вильнера И. Не успев начать строительство он трагически
+                    погиб.
+                  </p>
+                  <p class="item-content-description">
+                    Строительством продолжил заниматься его сын –
+                    специалист-химик Вильнер И., вызванный Кусто-Союзом из
+                    Москвы.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-info-item">
+              <div class="info-item-img">
+                <img src="./img/avatar.png" alt="avatar" />
+              </div>
+              <div class="info-item-content">
+                <span class="item-content-title">1929 - первое упоминание</span>
+                <div class="content--description">
+                  <p class="item-content-description">
+                    Первое упоминание в архивных данных о предприятии было в
+                    1927 году.
+                  </p>
+                  <p class="item-content-description">
+                    Этот завод в 1937 году решением Управления Химпрома
+                    Наркомлеспрома СССР передан в состав вновь построенного
+                    здесь в 1934 – 1936гг. завода «Изоплит».
+                  </p>
+                  <p class="item-content-description">
+                    Первым директором и начальником строительства предприятия
+                    был Корсаков Василий Тихонович.
+                  </p>
+                  <p class="item-content-description">
+                    Согласно дополнительных архивных данных на территории
+                    мыльной артели, принадлежащей частному предпринимателю,
+                    входящей в состав «Сампромсоюза», начинается строительство
+                    канифольного завода по проекту известного инженера,
+                    специалиста канифольного дела, частного собственника
+                    Вильнера И. Не успев начать строительство он трагически
+                    погиб.
+                  </p>
+                  <p class="item-content-description">
+                    Строительством продолжил заниматься его сын –
+                    специалист-химик Вильнер И., вызванный Кусто-Союзом из
+                    Москвы.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="slider-info-item">
+              <div class="info-item-img">
+                <img src="./img/avatar.png" alt="avatar" />
+              </div>
+              <div class="info-item-content">
+                <span class="item-content-title">1930 - первое упоминание</span>
+                <div class="content--description">
+                  <p class="item-content-description">
+                    Первое упоминание в архивных данных о предприятии было в
+                    1927 году.
+                  </p>
+                  <p class="item-content-description">
+                    Этот завод в 1937 году решением Управления Химпрома
+                    Наркомлеспрома СССР передан в состав вновь построенного
+                    здесь в 1934 – 1936гг. завода «Изоплит».
+                  </p>
+                  <p class="item-content-description">
+                    Первым директором и начальником строительства предприятия
+                    был Корсаков Василий Тихонович.
+                  </p>
+                  <p class="item-content-description">
+                    Согласно дополнительных архивных данных на территории
+                    мыльной артели, принадлежащей частному предпринимателю,
+                    входящей в состав «Сампромсоюза», начинается строительство
+                    канифольного завода по проекту известного инженера,
+                    специалиста канифольного дела, частного собственника
+                    Вильнера И. Не успев начать строительство он трагически
+                    погиб.
+                  </p>
+                  <p class="item-content-description">
+                    Строительством продолжил заниматься его сын –
+                    специалист-химик Вильнер И., вызванный Кусто-Союзом из
+                    Москвы.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="prev" onclick="minusSlide()">&#10094;</a>
+          <a class="next" onclick="plusSlide()">&#10095;</a>
+        </div>
+        <div class="footer">
+          <span>2009-2022 Все права защищены</span>
+          <span>Разработка сайта BerserkGroup</span>
+        </div>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>

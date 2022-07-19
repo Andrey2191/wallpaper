@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+}
+
+body{
+    background-color: #242424;
+}
+
+.content{
+    background: no-repeat;
+    background-image: url(./img/background.svg);
+    background-size: 400px;
+    
+}
+
+.wrapper{
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header{
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo{
+    flex: 1;
+}
+
+.header-content{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content-language{
+    font-size: 12px;
+    color: #fff;
+}
+
+.header-content-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-info-tel{
+    font-size: 16px;
+    color: #fff;
+}
+
+.header-info-time{
+    font-size: 13px;
+    color: #898989;
+}
+
+.header-btn{
+    width: 190px;
+    height: 48px;
+    color: #fff;
+    background: none;
+    cursor: pointer;
+
+}
+
+.header-btn:hover {
+    background: linear-gradient(111.3deg,  #BF6DB3, #EDBBD5, #96C7E1, #2977AC);
+    border: none;
+}
+
+.border-gradient {
+    border: 3px solid;
+    border-image-slice: 1;
+    border-width: 3px;
+  }
+
+.border-gradient-pink {
+    border-image-source: linear-gradient(to left, #BF6DB3, #EDBBD5, #96C7E1, #2977AC);
+}
+
+.nav{
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+}
+
+.nav-link{
+    position: relative;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.nav-link:hover::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    border-radius: 2px;
+    background: linear-gradient(111.3deg,  #BF6DB3, #EDBBD5, #96C7E1, #2977AC);
+}
+
+.slider-year-container{
+    max-width: 1240px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.slider-year-track{
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+.btn-year{
+    margin-right: 50px;
+    width: 48px;
+    height: 48px;
+    background: linear-gradient(111.3deg,  #BF6DB3, #EDBBD5, #96C7E1, #2977AC);
+    border: none;
+    cursor: pointer;
+}
+
+.slider-year-item{
+    flex: 0 0 10%;
+      max-width: 7%;
+      margin-right: 50px;
+      
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.year-active {
+    flex: 0 0 10%;
+    max-width: 7%;
+    margin-right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+    font-size: 14px;
+    color: #fff;
+    background: linear-gradient(111.3deg,  #BF6DB3, #EDBBD5, #96C7E1, #2977AC);
+    border: none; 
+}
+
+.slider-info-container{
+    position: relative;
+    margin-top: 50px;
+}
+
+.slider-info-track{
+    max-width: 100%;
+    height: 550px;
+}
+
+.slider-info-item{
+    display: flex;
+}
+
+.info-item-content{
+    padding: 20px;
+}
+
+.item-content-title{
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.content--description{
+    margin-top: 30px;
+    height: 308px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item-content-description{
+    
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.next {
+    right: -90px;
+    border-radius: 3px 0 0 3px;
+}
+.prev {
+    left: -90px;
+    border-radius: 3px 0 0 3px;
+}
+
+.slider-info-item{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.slider-year-item{
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+    to {
+        opacity: 1
+    }
+}
+
+
